@@ -1,1 +1,1 @@
-{"count":2,"people":[{"address":"64:6c:2d:1a:c6:57","major":20,"minor":30,"distance":1.2086774899735395,"timestamp":1476190551},{"address":"4a:30:17:65:eb:f7","major":20,"minor":30,"distance":1,"timestamp":1476190551}]}
+{"count":2,"people":[{"address":"53:a2:7e:6d:1e:6a","major":20,"minor":30,"distance":1.1346805817813888,"timestamp":1476413178},{"address":"5c:69:20:7c:74:28","major":20,"minor":30,"distance":0.5316574287829106,"timestamp":1476413178}]}
