@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"count":1,"people":[{"address":"42:d4:7a:d8:af:3c","major":20,"minor":30,"distance":1.657656308379761,"timestamp":1478321118}]}
+=======
+{"count":2,"people":[{"address":"53:a2:7e:6d:1e:6a","major":20,"minor":30,"distance":1.1346805817813888,"timestamp":1476413178},{"address":"5c:69:20:7c:74:28","major":20,"minor":30,"distance":0.5316574287829106,"timestamp":1476413178}]}
+>>>>>>> 328874eba8c667bb9e00f227bb722e6a2c50f4f2
