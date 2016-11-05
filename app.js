@@ -65,4 +65,17 @@ bleacon.on('discover', function(bleacon) {
 	personList[bleacon.mac] = data;
 });
 
+process.stdin.resume();
+function exitHandler(options, err) {
+	console.log("IN");
+	bleno.stopAdvertising();
+	bleacon.stopScanning();	
+	if (options.cleanup) console.log('clean');
+	if (err) console.log(err.stack);
+	if (options.exit) process.exit();
+}
 
+process.on('exit', exitHandler.bind(null, {cleanup:true}));
+process.on('SIGINT', exitHandler.bind(null, {exit:true}));
+process.on('uncaughtException', exitHandler.bind(null, {exit:true}));
+process.on('SIGTERM', exitHandler.bind(null, {exit:true}));
